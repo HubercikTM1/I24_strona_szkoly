@@ -1,0 +1,41 @@
+.container {
+    margin-top: 20px;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
+.class-selection {
+    margin-bottom: 20px;
+}
+
+.class-selection select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #89223f;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    display: none;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+th {
+    background-color: #89223f;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    table {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    background-color: #89223f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 3%;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+    border: 1px solid black;
+    padding: 1%;
+    background-color: #98415a;
+    border-radius: 10%;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li:hover {
+    transition: .4s;
+    background-color: #65273a;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#main-h2 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #89223f;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer section {
+    margin-bottom: 20px;
+}
+
+footer h3 {
+    color: #f4f4f4;
+}
+
+footer p a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+.kafelki {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.kafelek {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.kafelek:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.kafelek a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+.kafelek a:hover {
+    color: #89223f;
+}
+
+@media (max-width: 768px) {
+    .kafelek {
+        width: 100%;
+    }
+}
