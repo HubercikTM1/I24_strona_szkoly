@@ -39,3 +39,15 @@ th {
         font-size: 14px;
     }
 }
+
+
+#plan_lekcji_odnosnik {
+    text-decoration: none;
+    color: black;
+    font-size: 2vh;
+}
+
+#plan_lekcji_odnosnik:hover {
+    color: gray;
+    transition: .3s;
+}

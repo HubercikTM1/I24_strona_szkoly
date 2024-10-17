@@ -8,6 +8,16 @@
     font-size: 3vh;
 }
 
+.container a {
+    text-decoration: none;
+    color: black;
+}
+
+.container a:hover {
+    color: gray;
+    transition: .3s;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
