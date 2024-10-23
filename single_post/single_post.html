@@ -3,35 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt</title>
+    <title>O szkole</title>
     <link rel="icon" type="image/x-icon" href="../assets/images/logo-mini.png">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-gray-100 text-gray-800">
 
-    <header>
-        <marquee loop="100">Hubert Świtkowski 5tc - Wszelkie prawa zastrzeżone.</marquee>
-        <h1><a href="../home/home.html" style="text-decoration: none; color: white;">Zespół Szkół Licelanych i Technicznych nr 1</a></h1>
-        <h2>Warszawa, ul. Wiśniowa 56</h2>
-        <nav>
-            <ul>
-                <li><a href="../documents/documents.html">Dokumenty</a></li>
-                <li><a href="../contact/contact.html">Kontakt</a></li>
-                <li><a href="../about/about.html">O szkole</a></li>
-                <li><a href="../lesson_plan/lesson_plan.html">Plan lekcji</a></li>
-                <li><a href="../diary/diary.html">Dziennik</a></li>
-            </ul>
-        </nav>
+    <!-- Nagłówek strony -->
+    <header class="bg-red-800 text-white py-4 shadow-md">
+        <div class="container mx-auto text-center">
+            <p class="text-sm animate-pulse">Hubert Świtkowski 5TC - Wszelkie prawa zastrzeżone.</p>
+            <h1 class="text-2xl md:text-4xl font-bold mt-2">
+                <a href="../home/home.html" class="no-underline text-white hover:text-red-300">
+                    Zespół Szkół Licealnych i Technicznych nr 1
+                </a>
+            </h1>
+            <h2 class="text-lg md:text-xl">Warszawa, ul. Wiśniowa 56</h2>
+            <nav class="mt-6">
+                <ul class="flex justify-center space-x-4">
+                    <li>
+                        <a href="../documents/documents.html" class="px-4 py-2 border border-white rounded-md hover:bg-red-700 transition duration-300">
+                            Dokumenty
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../contact/contact.html" class="px-4 py-2 border border-white rounded-md hover:bg-red-700 transition duration-300">
+                            Kontakt
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../about/about.html" class="px-4 py-2 border border-white rounded-md hover:bg-red-700 transition duration-300">
+                            O szkole
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://planlekcji.staff.edu.pl" target="_blank" class="px-4 py-2 border border-white rounded-md hover:bg-red-700 transition duration-300">
+                            Plan lekcji
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://uonetplus.vulcan.net.pl/warszawamokotow" target="_blank" class="px-4 py-2 border border-white rounded-md hover:bg-red-700 transition duration-300">
+                            Dziennik
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <h2>Pojedynczy post</h2>
-        <p>test123</p>
+    <main class="py-10 px-4">
+        <section class="bg-white rounded-lg shadow-lg p-6 mx-auto max-w-2xl">
+            <h2 class="text-center text-[#89223f] text-2xl mb-4">Pojedynczy post</h2>
+            <p class="mb-4">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </p>
+            <img src="https://lh3.googleusercontent.com/p/AF1QipNeRi3Op811HOqw0qH8k5wIqgFr20enywkCqrM9=s680-w680-h510" alt="samolot">
+        </section>
     </main>
 
-    <footer>
-        <p>&copy; 2024 Hubert Świtkowski 5TC</p>
+    <footer class="bg-red-800 text-white py-4 mt-8">
+        <p class="text-center">&copy; 2024 Hubert Świtkowski 5TC</p>
     </footer>
-
 </body>
 </html>
